@@ -9,8 +9,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - name: Update dependencies
-        run: composer update
+      - name: Install dependencies
+        run: composer install
       - name: Build code
         run: npm run build
       - name: Test code
