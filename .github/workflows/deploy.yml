@@ -11,8 +11,6 @@ jobs:
       - uses: actions/checkout@v2
       - name: Install dependencies
         run: composer install
-      - name: Build code
-        run: npm run build
       - name: Test code
         run: vendor/bin/phpunit
   deploy:
