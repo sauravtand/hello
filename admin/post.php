@@ -3,7 +3,7 @@
   <div class="container">
     <div class="row">
       <div class="col-md-10">
-        <h1 class="admin-heading">All Posts</h1>
+        <h1 class="admin-heading">Enter Post</h1>
       </div>
       <div class="col-md-2">
         <a class="add-new" href="add-post.php">add post</a>
